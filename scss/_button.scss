@@ -1,0 +1,30 @@
+button {
+    margin: 5px;
+  padding: 10px;
+  color: white;
+  background-color: red;
+  font-size: 1.02rem;
+  border: 2px solid white;
+}
+
+button:hover {
+  border: 2px solid red;
+  color: red;
+  background-color: white;
+}
+
+.buttons{
+     display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 780px) {
+ 
+    .buttons{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+ 
+
+  }

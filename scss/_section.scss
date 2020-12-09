@@ -1,0 +1,71 @@
+section {
+    text-align: center;
+  }
+  h1 {
+    color: #29374d;
+  }
+  
+  h4 {
+    color: #29374d;
+  }
+  
+  .icon {
+    max-width: 30px;
+    fill: #29374d;
+  }
+  .zarizeni-one {
+    display: flex;
+    align-content: center;
+  }
+  
+  .zarizeni-one p {
+    padding: 0 0 0 20px;
+    text-align: left;
+  }
+  
+  .better-web,
+  .web-service,
+  .contact {
+    background-color: lightgrey;
+  }
+  
+  
+  section,
+  footer {
+    padding: 20px 50px;
+  }
+  header{
+      padding: 0 50px;
+  }
+
+  @media (min-width: 1000px) {
+
+   
+
+    section{
+        padding: 200px;
+    }
+ 
+        .better-web-box{
+            display: flex;
+            justify-content: space-around;
+        }
+
+    .web-box{
+        width: calc((100%-30px)/3);
+    }
+
+    .about-box{
+        display: flex;
+    }
+    .about-box-title{
+        text-align: left;
+        padding: 20px;
+    }
+    .package{
+      flex-direction: row;
+    }
+
+    
+
+  }

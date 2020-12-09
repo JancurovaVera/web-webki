@@ -1,0 +1,20 @@
+/*section contact */
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
+    @media (min-width: 780px) {
+ 
+            
+        .contact-box{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    
+    
+      
+    
+      }
+    

@@ -1,0 +1,21 @@
+footer{
+    background-color: #29374d;
+    color: white;
+display: flex;
+justify-content: space-between;
+}
+
+footer a, footer h4{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.footer-right{
+    text-align: center;
+   
+}
+
+.footer-right li{
+    list-style: none;
+}

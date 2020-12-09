@@ -1,0 +1,49 @@
+
+    <footer>
+        <div class="footer-logo">
+          <img src="#" alt="" />
+          <p class="logo-text">Webki</p>
+        </div>
+        <div class="footer-right">
+          <div class="info">
+            <h4>Informace</h4>
+            <ul>
+              <li><a href="">Úvod</a></li>
+              <li><a href="">Reference</a></li>
+              <li><a href=""></a>Kontakt</li>
+            </ul>
+          </div>
+          <div class="service">
+            <h4>Služby</h4>
+            <ul>
+              <li><a href="">Tvorba webových stránek</a></li>
+              <li><a href=""></a>Konzultace</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+  
+  
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="owlcarousel/owl.carousel.min.js"></script>
+  
+      <script>
+        $(document).ready(function(){
+    $(".owl-carousel").owlCarousel();
+  });
+  
+  $('.loop').owlCarousel({
+      center: true,
+      items:2,
+      loop:true,
+      margin:10,
+      responsive:{
+          600:{
+              items:4
+          }
+      }
+  });
+      </script>
+    </body>
+  </html>
+  
