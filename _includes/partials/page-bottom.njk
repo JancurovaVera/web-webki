@@ -1,0 +1,43 @@
+
+    <footer>
+        <div class="footer-logo">
+          <img src="#" alt="" />
+          <p class="logo-text">Webki, ©2020</p>
+        </div>
+        <div class="footer-right">
+         
+            <ul>
+              <li><a href="#header">Úvod</a></li>
+              <li><a href="#references">Reference</a></li>
+              <li><a href="#contact">Kontakt</a></li>
+              <li><a href="#web">Tvorba webových stránek</a></li>
+              <li><a href="#consultancy">Konzultace</a></li>
+            </ul>
+          </div>
+        
+      </footer>
+  
+  
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="owlcarousel/owl.carousel.min.js"></script>
+  
+      <script>
+        $(document).ready(function(){
+    $(".owl-carousel").owlCarousel();
+  });
+  
+  $('.loop').owlCarousel({
+      center: true,
+      items:2,
+      loop:true,
+      margin:10,
+      responsive:{
+          600:{
+              items:4
+          }
+      }
+  });
+      </script>
+    </body>
+  </html>
+  

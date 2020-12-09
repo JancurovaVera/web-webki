@@ -1,4 +1,8 @@
 /*web*/
+
+.better-web{
+    margin: 0;
+}
 .package{
   
     display: flex;
@@ -39,14 +43,30 @@
  
   
  }
+
+ @media (min-width: 1000px) {
+
  
- .carouselCSS{
- background-color: #29374d;
- padding: 20px;
+.package{
+    flex-direction: row;
+    max-width: 450px;
+  }
+  .web-service{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .complete{
+    width: calc((100%-100px));
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .complete-pack{
+      display: flex;
+      flex-direction: column;
+  }
+
  
- }
- .carousel-img {
-   width: 5px;
-   padding: 1px;
- 
+
  }
