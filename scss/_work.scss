@@ -29,11 +29,27 @@ img{
 
 .project__link{
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    p{
+        margin: 0;
+    }
+
 }
 
 .project__a{
     text-decoration: none;
     color: #29374d;
+}
+
+.b-link{
+    color: #29374d;
+    background-color: aliceblue;
+    text-decoration: none;
+    font-size: 0.6rem;
+    border: 1px solid ;
+    padding: 10px;
+    margin-top: 20px; 
 }
 
 @media (min-width: 780px) {
