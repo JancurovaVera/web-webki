@@ -46,20 +46,20 @@ var image_tracker = 'img1';
     }
     else if(image_tracker == 'img2'){
     image1.src='/images/pic3.png';
-    image2.src='pic4.png';
-    image3.src='pic1.png';
+    image2.src='/images/pic4.png';
+    image3.src='/images/pic1.png';
     image_tracker='img3';
     }
     else if(image_tracker == 'img3'){
-    image1.src='pic4.png';
-    image2.src='pic1.png';
-    image3.src='pic2.png';
+    image1.src='/images/pic4.png';
+    image2.src='/images/pic1.png';
+    image3.src='/images/pic2.png';
     image_tracker='img4';
     }
     else if(image_tracker == 'img4'){
-        image1.src='pic1.png';
-        image2.src='pic2.png';
-        image3.src='pic3.png';
+        image1.src='/images/pic1.png';
+        image2.src='/images/pic2.png';
+        image3.src='/images/pic3.png';
         image_tracker='img1';
         }
     
