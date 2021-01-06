@@ -1,0 +1,73 @@
+
+
+/*reference*/
+.references-box{
+    width: 100%;
+  }
+  
+  .reference-arrow{
+    display: flex;
+   align-items: stretch;
+  }
+  
+  .arrow{
+    width: 12px;
+    margin: 4px;
+  }
+  
+  .reference {
+    display: flex;
+  }
+  .produkt{
+    border-radius: 5px;
+      background-color: white;
+      margin-right: 20px;
+      width: 50%;
+      
+  }
+
+  .product3{
+    display: none;
+  }
+  
+  .reference-one {
+    height: 100%;
+    width: 100%;
+         object-fit: cover;
+  
+  }
+  .produkt p{
+      padding: 20px;
+      text-align: center;
+  }
+
+  .link{
+    
+    text-decoration: none;
+    font-size: 0.6rem;
+    border: 1px solid ;
+    padding: 6px;
+    margin-top: 20px;
+
+  }
+
+  .link-div{
+    margin-top: 20px;
+    margin-right: 10%;
+    text-align: right !important;
+  }
+  @media (min-width: 650px) {
+    .product3{
+      display: inline;
+    }
+
+    .arrow{
+      width: 20px;
+      margin: 10px;
+    }
+
+    .produkt{
+        margin-right: 30px;
+       
+    }
+  }

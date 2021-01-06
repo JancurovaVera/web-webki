@@ -1,0 +1,25 @@
+footer{
+    background-color: #29374d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer a, footer h4{
+    text-decoration: none;
+    color: white;
+    font-display: inline-block;
+    
+}
+
+.footer-right{
+    text-align: center;
+   
+}
+
+.footer-right ul{
+    list-style: none;
+   padding: 0;
+  
+}

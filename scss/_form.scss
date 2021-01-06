@@ -1,0 +1,36 @@
+ /*Formular*/
+ .overlay h2 {
+    padding: 2px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #d3cdcd;
+   
+    transition: 0.3s;
+  } 
+
+  label{
+    color: #d3cdcd;
+  }
+ 
+  form p{
+    color: #d3cdcd;
+  }
+ 
+
+  .field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  #web, #email{
+    margin-left: 20px;
+  }
+  .contact-row{
+    display: flex;
+    justify-content: center;
+  }
+  input{
+    padding: 10px;
+    font-size: 20px;
+  }

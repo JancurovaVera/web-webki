@@ -1,0 +1,72 @@
+/*web*/
+
+.better-web{
+    margin: 0;
+}
+.package{
+  
+    display: flex;
+    flex-direction: column;
+  
+    }
+ 
+    .package-div h4{
+      align-self: start;
+ 
+    }
+ .table {
+ 
+     display: flex;
+  
+ }
+ 
+ .table-left, .table-right{
+   flex: 1 1 50%; /* oba rámečky budou stejně široké */
+   /* tímhle v nich vertikálně vycentrujeme obsah */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   /* případně ještě toto, pokud chceš všechno v rámečku centrovat i vodorovně */
+   align-items: center;
+   padding: 30px;
+ }
+ 
+ .table-left{
+   background-color: #29374d;
+   color: aliceblue;
+ }
+ 
+ 
+ .table-right{
+     color: #29374d;
+     background-color: aliceblue;
+ 
+  
+ }
+
+ @media (min-width: 1000px) {
+
+ 
+.package{
+    flex-direction: row;
+    max-width: 450px;
+  }
+  .web-service{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .complete{
+    width: calc((100%-100px));
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .complete-pack{
+      display: flex;
+      flex-direction: column;
+  }
+
+ 
+
+ }

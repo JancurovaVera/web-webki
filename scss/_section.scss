@@ -1,0 +1,56 @@
+
+section {
+    text-align: center;
+  }
+ 
+  
+  h4 {
+    color: #29374d;
+  }
+  
+  .icon {
+    max-width: 30px;
+    fill: #29374d;
+  }
+  .zarizeni-one {
+    display: flex;
+    align-content: center;
+  }
+  
+  .zarizeni-one p {
+    padding: 0 0 0 20px;
+    text-align: left;
+  }
+  
+  .better-web,
+  .web-service,
+  .contact {
+    background-color: lightgrey;
+    margin: 0;
+  }
+  
+  
+  section,
+  footer {
+    padding: 20px 10px;
+  }
+
+  
+  @media (min-width: 1000px) {
+
+   
+
+    section{
+        padding: 40px;
+    }
+
+    .about-box{
+      display: flex;
+  }
+  .about-box-title{
+      text-align: left;
+      padding: 20px;
+  }
+  
+  
+  }
