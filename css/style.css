@@ -239,6 +239,9 @@ h4 {
 
 .icon {
   max-width: 30px;
+  height: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
   fill: #29374d;
 }
 
@@ -552,7 +555,7 @@ img {
 
 .project__a {
   text-decoration: none;
-  color: aliceblue;
+  color: grey;
 }
 
 @media (min-width: 780px) {
